@@ -2,5 +2,4 @@
 # -*- coding: utf-8 -*-
 
 url = open("finished.txt").readlines()
-
 print(url)

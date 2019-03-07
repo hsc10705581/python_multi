@@ -12,7 +12,12 @@ browser = webdriver.Chrome(chrome_options=options)
 time.sleep(30)
 
 fshare = []
+
+finished = open("finished.txt").readlines()
 for url in open("short_urls.txt"):
+    if finished:
+        finished.pop()
+        continue
     browser.get(url)
     time.sleep(5)
     print(browser.current_url)
