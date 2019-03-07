@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+<PIL.Image.Image image mode=RGBA size=32x32 at 0x7AA94F0>
+=======
+<PIL.Image.Image image mode=RGBA size=32x32 at 0x7AA94F0>
+>>>>>>> first commit
