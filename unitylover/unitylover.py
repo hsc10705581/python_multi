@@ -5,9 +5,9 @@ import requests
 from selenium import webdriver
 import time
 
-options = webdriver.ChromeOptions()
-options.add_extension("tampermonkey_v4.8.crx")
-browser = webdriver.Chrome(chrome_options=options)
+#options = webdriver.ChromeOptions()
+#options.add_extension("tampermonkey_v4.8.crx")
+#browser = webdriver.Chrome(chrome_options=options)
 
 def get_short_urls():
     short_urls = []

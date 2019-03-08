@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14d029a6-d7fb-49da-9d1a-4e321881e599" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unitylover/finished.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unitylover/finished.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unitylover/fshare_download.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitylover/fshare_download.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitylover/get_fshare.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitylover/get_fshare_url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/get_fshare/get_fshare.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/get_fshare/get_fshare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitylover/get_fshare_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitylover/get_fshare_url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitylover/short_urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unitylover/short_urls.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitylover/unitylover.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitylover/unitylover.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +16,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/python$get_fshare_url.coverage" NAME="get_fshare_url Coverage Results" MODIFIED="1552008114964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unitylover" />
-    <SUITE FILE_PATH="coverage/python$fshare_download.coverage" NAME="fshare_download Coverage Results" MODIFIED="1551963787127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unitylover" />
+    <SUITE FILE_PATH="coverage/python$unitylover.coverage" NAME="unitylover Coverage Results" MODIFIED="1552041651395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unitylover" />
+    <SUITE FILE_PATH="coverage/python$get_fshare_url.coverage" NAME="get_fshare_url Coverage Results" MODIFIED="1552041056726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unitylover" />
+    <SUITE FILE_PATH="coverage/python$fshare_download.coverage" NAME="fshare_download Coverage Results" MODIFIED="1552038452476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unitylover" />
     <SUITE FILE_PATH="coverage/python$get_fshare.coverage" NAME="get_fshare Coverage Results" MODIFIED="1551971659185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unitylover" />
   </component>
   <component name="FileEditorManager">
@@ -28,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unitylover/fshare_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="152">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding>
                 <element signature="e#45#73#0" expanded="true" />
               </folding>
@@ -38,49 +36,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16397">
-              <caret line="896" selection-start-line="896" selection-end-line="896" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/get_fshare/test_function.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unitylover/finished.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="2638" column="56" selection-start-line="2638" selection-start-column="56" selection-end-line="2638" selection-end-column="56" />
+            <state relative-caret-position="-463">
+              <caret line="3397" column="56" selection-start-line="3397" selection-start-column="56" selection-end-line="3397" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/unitylover/get_fshare_url.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-71">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unitylover/unitylover.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="-76">
+              <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+              <folding>
+                <element signature="e#47#76#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,6 +65,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unitylover/get_fshare_url.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -103,6 +83,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gest</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,13 +96,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/unitylover/short_urls.txt" />
-        <option value="$PROJECT_DIR$/unitylover/unitylover.py" />
         <option value="$PROJECT_DIR$/unitylover/__init__.py" />
         <option value="$PROJECT_DIR$/unitylover/test.py" />
         <option value="$PROJECT_DIR$/unitylover/get_fshare.py" />
-        <option value="$PROJECT_DIR$/unitylover/fshare_download.py" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/get_fshare/get_fshare.py" />
+        <option value="$PROJECT_DIR$/unitylover/fshare_download.py" />
         <option value="$PROJECT_DIR$/unitylover/finished.txt" />
+        <option value="$PROJECT_DIR$/unitylover/get_fshare_url.py" />
+        <option value="$PROJECT_DIR$/unitylover/unitylover.py" />
       </list>
     </option>
   </component>
@@ -169,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.get_fshare_url">
+  <component name="RunManager" selected="Python.unitylover">
     <configuration name="fshare_download" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -236,11 +222,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="unitylover" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitylover" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unitylover/unitylover.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.unitylover" />
         <item itemvalue="Python.get_fshare_url" />
-        <item itemvalue="Python.get_fshare" />
         <item itemvalue="Python.fshare_download" />
+        <item itemvalue="Python.get_fshare" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +267,7 @@
       <workItem from="1551961769537" duration="620000" />
       <workItem from="1551962483445" duration="1321000" />
       <workItem from="1551968677951" duration="1834000" />
-      <workItem from="1552008069967" duration="1103000" />
+      <workItem from="1552008069967" duration="9444000" />
     </task>
     <task id="LOCAL-00001" summary="edit commit">
       <created>1551928092478</created>
@@ -274,11 +283,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551961826984</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="almost finished carbing">
+      <created>1552013023537</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552013023537</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14905000" />
+    <option name="totallyTimeSpent" value="23246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -332,13 +348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unitylover/short_urls.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/get_fshare/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -349,20 +358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16397">
-          <caret line="896" selection-start-line="896" selection-end-line="896" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unitylover/unitylover.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/unitylover/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -370,10 +365,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unitylover/finished.txt">
+    <entry file="file://$PROJECT_DIR$/unitylover/short_urls.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="2638" column="56" selection-start-line="2638" selection-start-column="56" selection-end-line="2638" selection-end-column="56" />
+        <state relative-caret-position="38">
+          <caret line="2" column="56" lean-forward="true" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -387,10 +382,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="896" selection-start-line="896" selection-end-line="896" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/unitylover/fshare_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="152">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
             <element signature="e#45#73#0" expanded="true" />
           </folding>
@@ -399,8 +401,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/unitylover/get_fshare_url.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-71">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="181">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unitylover/finished.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-463">
+          <caret line="3397" column="56" selection-start-line="3397" selection-start-column="56" selection-end-line="3397" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unitylover/unitylover.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <element signature="e#47#76#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

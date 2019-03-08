@@ -6,8 +6,7 @@ import unittest
 finished = open("finished.txt").readlines()
 bot = FSAPI('utvyoxrk@emlpro.com', 'ahihihi')
 bot.login()
-print(finished[0])
-res = bot.get_file_info(finished[0])
+res = bot.download("https://www.fshare.vn/file/ATXZV4QZKLZX")
 print(res)
 
 for url in finished:

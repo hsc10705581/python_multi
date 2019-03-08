@@ -23,7 +23,7 @@ for url in open("short_urls.txt"):
     print(browser.current_url)
     fshare.append(browser.current_url)
 
-f = open("short_urls.txt", "w")
+f = open("long_urls.txt", "w")
 for url in fshare:
     print(url, file=f)
 f.close()
