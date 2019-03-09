@@ -13,7 +13,7 @@ time.sleep(30)
 
 fshare = []
 
-finished = open("finished.txt").readlines()
+finished = open("pan_urls.txt").readlines()
 for url in open("short_urls.txt"):
     if finished:
         finished.pop()
