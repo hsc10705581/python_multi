@@ -16,4 +16,4 @@ def get_range_urls(begin, end, user_name, password):
         print(bot.download(url), file=links)
         print(count)
 
-get_range_urls(201, 600, "934936408@qq.com", "19990421hsc")
+get_range_urls(1201, 2000, "934936408@qq.com", "19990421hsc")

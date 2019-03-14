@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14d029a6-d7fb-49da-9d1a-4e321881e599" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/unitylover/get_range_urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitylover/fshare_download.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitylover/fshare_download.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitylover/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitylover/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitylover/get_range_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitylover/get_range_urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python$unitylover.coverage" NAME="unitylover Coverage Results" MODIFIED="1552041651395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unitylover" />
+    <SUITE FILE_PATH="coverage/python$get_range_urls.coverage" NAME="get_range_urls Coverage Results" MODIFIED="1552524992951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unitylover" />
     <SUITE FILE_PATH="coverage/python$edit_url.coverage" NAME="edit_url Coverage Results" MODIFIED="1552094360155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unitylover" />
     <SUITE FILE_PATH="coverage/python$get_fshare_url.coverage" NAME="get_fshare_url Coverage Results" MODIFIED="1552041056726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unitylover" />
     <SUITE FILE_PATH="coverage/python$fshare_download.coverage" NAME="fshare_download Coverage Results" MODIFIED="1552363239043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unitylover" />
@@ -27,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unitylover/fshare_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="12" lean-forward="true" selection-start-line="15" selection-end-line="22" selection-end-column="12" />
+            <state relative-caret-position="399">
+              <caret line="22" column="12" selection-start-line="15" selection-end-line="22" selection-end-column="12" />
               <folding>
                 <element signature="e#45#73#0" expanded="true" />
               </folding>
@@ -39,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/unitylover/get_range_urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="342">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -130,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fshare_download">
+  <component name="RunManager" selected="Python.get_range_urls">
     <configuration name="download" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,6 +196,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="get_range_urls" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitylover" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unitylover/get_range_urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,35 +240,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="unitylover" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitylover" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unitylover/unitylover.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.get_range_urls" />
         <item itemvalue="Python.fshare_download" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.download" />
         <item itemvalue="Python.edit_url" />
-        <item itemvalue="Python.unitylover" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +275,9 @@
       <workItem from="1552306194772" duration="678000" />
       <workItem from="1552311192392" duration="358000" />
       <workItem from="1552363180909" duration="299000" />
-      <workItem from="1552369589254" duration="281000" />
+      <workItem from="1552369589254" duration="329000" />
+      <workItem from="1552459079529" duration="521000" />
+      <workItem from="1552524964243" duration="398000" />
     </task>
     <task id="LOCAL-00001" summary="edit commit">
       <created>1551928092478</created>
@@ -320,17 +321,24 @@
       <option name="project" value="LOCAL" />
       <updated>1552100376990</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="get url to download by Thunder">
+      <created>1552369909904</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552369909904</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34544000" />
+    <option name="totallyTimeSpent" value="35511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3177041" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32821342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -371,7 +379,8 @@
     <MESSAGE value="almost finished carbing" />
     <MESSAGE value="finished carbing and ready to download all the sources" />
     <MESSAGE value="finding way to download such a huge amount of sources." />
-    <option name="LAST_COMMIT_MESSAGE" value="finding way to download such a huge amount of sources." />
+    <MESSAGE value="get url to download by Thunder" />
+    <option name="LAST_COMMIT_MESSAGE" value="get url to download by Thunder" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/unitylover/__init__.py">
@@ -493,10 +502,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/unitylover/533-533.txt" />
+    <entry file="file://$PROJECT_DIR$/unitylover/280-501.txt" />
     <entry file="file://$PROJECT_DIR$/unitylover/fshare_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="12" lean-forward="true" selection-start-line="15" selection-end-line="22" selection-end-column="12" />
+        <state relative-caret-position="399">
+          <caret line="22" column="12" selection-start-line="15" selection-end-line="22" selection-end-column="12" />
           <folding>
             <element signature="e#45#73#0" expanded="true" />
           </folding>
@@ -505,8 +516,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/unitylover/get_range_urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="342">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
