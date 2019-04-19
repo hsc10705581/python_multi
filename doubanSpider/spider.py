@@ -65,6 +65,8 @@ def bookinfo(url):
             info['isbn'] = get_isbn(bookname["href"])
             data.append(info)
         except IndexError:
+            continue
+            '''
             try:
                 info['类型'] = tag
                 booktitle = bookname.get_text().split()[0]
@@ -88,6 +90,7 @@ def bookinfo(url):
                 info['isbn'] = get_isbn(bookname["href"])
             except (IndexError, TypeError):
                 continue
+            '''
         except TypeError:
             continue
     return data
@@ -107,7 +110,7 @@ def get_isbn(url):
     html = requests.get(url)
     soup = BeautifulSoup(html.text, 'lxml')
     try:
-        return str(soup.find(text='ISBN:').next_element.strip())
+        return "isbn" + str(soup.find(text='ISBN:').next_element.strip())
     except AttributeError:
         return None
 
