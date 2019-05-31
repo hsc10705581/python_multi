@@ -57,6 +57,7 @@ def bookinfo(url):
             date = detail.get_text().split('/', 4)[3].split('-')[0]
             info['出版日期'] = date
             price = detail.get_text().split('/', 4)[4].lstrip('\n          ').rstrip('\n        ')
+            price = price.replace("元", "").replace("CNY", "").replace("NT$", "")
             info['价格'] = price
             person = get_num(person)  # 评价人数
             info['评价人数'] = person
