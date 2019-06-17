@@ -5,6 +5,7 @@ import xlrd
 import pymysql
 import random
 
+
 mydb = pymysql.connect("localhost", "root", "root", "e-book")
 mycursor = mydb.cursor()
 
@@ -16,10 +17,10 @@ id = 0
 for i in range(table.nrows):
     try:
         print(table.row_values(i))
-        if table.row_values(i)[0] == "互联网":
+        if table.row_values(i)[1] == "互联网":
             info = table.row_values(i)
             id = id + 1
-            val = (info[1], info[2], info[3], str(info[4]), info[5], info[6], info[7], info[8], info[9], info[10], id, random.randint(0, 100))
+            val = (info[2], info[3], info[4], str(info[5]), info[6], info[7], info[8], info[9], info[10], info[11], info[0], random.randint(0, 100))
             mycursor.execute(sql, val)
             mydb.commit()
     except UnicodeEncodeError:
